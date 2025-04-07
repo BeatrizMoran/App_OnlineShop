@@ -9,6 +9,6 @@ import Foundation
 
 struct ElementoCarrito: Identifiable, Codable {
     var id: Int
-    var product: Producto
+    var producto: Producto
     var cantidad: Int
 }

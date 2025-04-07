@@ -16,4 +16,8 @@ struct Producto: Identifiable, Codable {
     var image: String
 }
 
+struct Rating: Codable {
+    var rate: Double
+    var count: Int
+}
 

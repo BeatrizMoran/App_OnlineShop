@@ -4,7 +4,6 @@ class ProductoListViewModel: ObservableObject {
    
     @Published var productos: [Producto] = []
 
-    // Método para obtener los productos desde la API
     func fetchProductos() {
         guard let url = URL(string : "\(API.baseURL)/products") else {
             print("URL no válida")
